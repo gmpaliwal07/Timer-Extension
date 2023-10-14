@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #timer {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button#startPause {
+    background-color: #4CAF50; /* Light green by default */
+  }
+  
+  button#startPause.paused {
+    background-color: #D32F2F; /* Red when paused */
+  }
+  
+  button#reset {
+    background-color: #1976D2; /* Light blue for the reset button */
+  }
+  
+  button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+  }
+  
+  button#reset:hover {
+    background-color: #1155B4; /* Darker blue on hover for the reset button */
+  }
+  
+  button:active {
+    background-color: #1B5E20; /* Even darker green when pressed */
+  }
+  
+  button#reset:active {
+    background-color: #0D3E7B; /* Even darker blue when pressed for the reset button */
+  }
+  
